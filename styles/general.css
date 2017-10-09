@@ -1,0 +1,60 @@
+/*declare variables*/
+:root{
+	--text-margin: 90pt;
+}
+
+/*general style*/
+html{
+	background: #180D01;
+}
+
+body{
+  width: 90%;
+  margin: auto;
+  
+}
+
+h1 {
+  font-family: 'Bad Script', cursive;
+  color: orangered;
+}
+
+h2{
+	color: white;
+}
+
+p {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#hours{
+	float: left;
+}
+
+#contact{
+	float: left;
+	margin-left: var(--text-margin);
+	
+}
+#address{
+	float: left;
+	margin-left: var(--text-margin);
+}
+
+#visit{
+	float: left;
+}
+
+#invite{
+	float: left;
+	margin-left: var(--text-margin);
+}
+
+#shopping-cart{
+ 	margin-top: 20px;
+ 	position: relative;
+ 	left: 970px;
+}
+

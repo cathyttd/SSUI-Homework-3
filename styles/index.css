@@ -1,20 +1,41 @@
+/*declare variables*/
+:root{
+	--orange: #FF8000;
+}
+/*style for index.html*/
 
-body{
-  text-align: center;
-  width: 40%;
-  margin: auto;
+h1{
+	position: absolute;
+	top: 450px;
+	left: 250px;
+	color: white;
+	font-size: 4em;
 }
 
-h1 {
-  font-family: 'Bad Script', cursive;
-  color: orangered;
+#order{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	background: var(--orange);
+	border-radius: 5px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 50px;
 }
 
-p {
-  text-align: left;
-  font-family: 'Lato', sans-serif;
+#text{
+	position: relative;
+	top: 5px;
+	color: white;
+	font-size: 2em;
+	font-weight: 200;
+ 	text-decoration: none;
+ 	font-family: 'Lato', sans-serif;
+ 	
 }
 
 .starterImage{
-  width: 16em;
+ 	width: 70em;
+ 	clip: rect(100px,0px,0px,100px);
+ 	margin-top: 20px;
 }

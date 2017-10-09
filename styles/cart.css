@@ -1,0 +1,15 @@
+#details{
+	position: relative;
+	left: -500px;
+}
+
+#summary{
+	position: relative;
+	left: 500px;
+}
+
+#checkout{
+	color: black;
+	background: #97a7a7;
+	width: 100px;
+}

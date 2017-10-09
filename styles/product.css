@@ -1,0 +1,107 @@
+:root{
+	--orange: #FF8000;
+}
+
+#items{
+	font-family: 'Lato', sans-serif;
+}
+
+#picture{
+	position: relative;
+	width: 600px;
+	height: 400px;
+	overflow: hidden;
+}
+
+#select{
+	position: relative;
+	top: -300px;
+	left: 650px;
+	width: 400px;
+}
+
+
+#back-text{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	position: relative;
+	top: 40px;
+	font-size: 1.125em;
+}
+#back-text:hover{
+	color: orange;
+}
+
+#title{
+	color: white;
+}
+
+#quantity-input{
+	width: 30px;
+}
+
+#description{
+	position: relative;
+	top: 10px;
+}
+
+#script{
+	position: relative;
+	color: white;
+	left: 20px;
+}
+
+
+#price{
+	color: white;
+	margin-top: 10px;
+}
+
+#maple-apple{
+	cursor: pointer;
+	position:relative;
+	top: 100px;
+	background: var(--orange);
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#cinnamon-o{
+	cursor: pointer;
+	position:relative;
+	top: 100px;
+	background: var(--orange);
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#add-text{
+	position: relative;
+	color: white;
+	top:10px;
+}
+
+#cart-text{
+	position: relative;
+	top:10px;
+}
+
+#cart-link{
+	text-decoration: none;
+	color: white;
+}
+
+#go-to-cart{
+	position:relative;
+	top: 110px;
+	background: var(--orange);
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}

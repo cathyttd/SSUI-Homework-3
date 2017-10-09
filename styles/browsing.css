@@ -1,0 +1,16 @@
+.items {
+  top: -100px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+}
+
+.box {
+  margin: 10px 10px 10px 0px;
+  border-radius: 5px;
+  width: 325px
+}
+
+.box:hover{
+  opacity: 0.4;
+}

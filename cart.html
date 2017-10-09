@@ -6,7 +6,7 @@
 
         <!--The following line loads in your CSS style sheet-->
         <link rel="stylesheet" href="styles/general.css">
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/cart.css">
 
         <!--The following line loads in 2 fonts from Google Fonts: Bad Script and Lato-->
         <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
@@ -16,13 +16,24 @@
     </head>
 
     <body>
-        <h1>Welcome to Bun Bun Bake Shop!</h1>
-        <div id="order"><a href ="browsing.html" id="text">Order</a></div>
-        <img src="./resources/images/home-cinnamon-rolls.jpg" class="starterImage" alt="a picture of a box that says what's in store for your store"></img>
+        <h1>Bun Bun Bake Shop</h1>
+        <div id="shopping-cart">
+            <a href ="cart.html"><img src="./resources/images/shopping-cart.png" class="shopping-cart" width = 30px></a>
+        </div>
+        <div id="details">
+            <h2>My Cart</h2>
+            <div id="cart-items">
+            </div>
+        </div>
+        <div id="summary">
+            <p>Estimate Total</p> 
+            <p id="checkout-price"></p>
+            <p id="checkout">Checkout</p> 
+        </div>
     </body>
 
     <footer>
-        <hr>
+        <hr/>
         <p id="copyright">&copy; Bun Bun Bake Shop</p>
         <p id="hours">Hours: 7:00 am - 10:00 pm</p>
         <p id="contact">Contact Us: 412-980-4637</p>
